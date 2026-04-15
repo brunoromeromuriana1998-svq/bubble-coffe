@@ -8,6 +8,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 
 <style>
+    .whatsapp-btn {
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    background: #25D366;
+    color: white;
+    font-size: 24px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
 :root {
     --primary: #6f4e37;
     --accent: #d4a373;
@@ -17,6 +38,9 @@
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
+    <a href="https://wa.me/34693298475" target="_blank" class="whatsapp-btn">
+    💬
+</a>
 
 body {
     font-family: 'Poppins', sans-serif;
